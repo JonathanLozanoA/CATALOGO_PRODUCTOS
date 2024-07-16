@@ -5,9 +5,13 @@ body {
 }
 body {
     background-color: #323232;
-    font-size: Helvetica Neve, Helvetica;
+    font-size: Helvetica Neue, Helvetica;
     font-size: 14px;
     color: #000;
     margin: 0;
     padding: 0;
+}   
+
+.swiper {
+    width: 100%;
 }
