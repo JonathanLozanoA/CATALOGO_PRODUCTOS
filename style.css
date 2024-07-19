@@ -23,7 +23,7 @@ body {
     height: 500px;
     background-color: #323232;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
-    padding: 40px;
+    padding: 50px;
     text-align: center;
 }
 
@@ -31,7 +31,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
 }
 
 .icons i {
@@ -40,19 +40,52 @@ body {
 }
 
 .icons img {
-    width: 120px;
+    width: 160px;
 }
 
 .product-content {
     display: flex;
+    justify-content: space-between;
 }
 
 .product-txt {
     flex-basis: 50%;
+    text-align: left;
 }
 
 .product-txt span {
     font-size: 25px;
     color: #FFB900;
     font-weight: bold;
+}
+
+.product-txt h3 {
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.product-txt p {
+    font-size: 14px;
+    color: #c4c4c4;
+}
+
+.product-img {
+    flex-basis: 50%;
+    text-align: right;
+}
+
+.product-img img {
+    width: 300px;
+    padding-left: 10px;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 13px 55px;
+    border: 1px solid #FFB900;
+    border-radius: 25px;
+    color: #FFB900;
+    text-decoration: none;
+    margin-top: 20px;
 }
